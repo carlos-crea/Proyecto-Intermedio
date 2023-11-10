@@ -1,0 +1,110 @@
+{
+  "productos": [
+    {
+      "nombre": "GUITARRA ELECTRICA FENDER PLAYER STRATOCASTER ",
+      "imagenUrl": "guitarra.png",
+      "precio": "21999",
+      "categoria": "guitarras",
+      "descripcion": "Cuerpo de aliso con acabado brillante, Tres pastillas Stratocaster de una sola bobina de la serie Player, Perfil de mástil C moderno de 9.5 de radio, Puente trémolo de 2 puntos con caballetes de acero doblados.",
+      "id": 1
+    },
+    {
+      "nombre": "GUITARRA ELECTRICA FENDER STRATOCASTER AMERICAN VINTAGE II",
+      "imagenUrl": "guitarra2.png",
+      "precio": "39500",
+      "categoria": "guitarras",
+      "descripcion": "Cuerpo de aliso con acabado brillante, Tres pastillas Stratocaster de una sola bobina de la serie Player, Perfil de mástil C moderno de 9.5 de radio, Puente trémolo de 2 puntos con caballetes de acero doblados, Zurda",
+      "id": 2
+    },
+    {
+      "nombre": "GUITARRA ELECTRICA VOX BOBCAT S66",
+      "imagenUrl": "guitarra3.jpg",
+      "precio": "29000",
+      "categoria": "guitarras",
+      "descripcion": "Construcción de arce laminado Bloque central de abeto con alivio de peso Fijación superior blanca de 5 capas Fijación trasera blanca de una sola capa Grosor del borde de 44 mm (1 3/4),Caoba, Moderna forma de C, Ancho de tuerca de 43 mm (1 11/16 ″)",
+      "id": 3
+    },
+    {
+      "nombre": "Guitarra Electrica LTD EC256 color Negra Satin",
+      "imagenUrl": "guitarra4.png",
+      "precio": "14690",
+      "categoria": "guitarras",
+      "descripcion": "CUERPO Caoba, CUELLO 3 piezas de caoba, DIAPASÓN Jatoba asado, RADIO DEL DIAPÓSITO 350 mm, TERMINADO NEGRO, ANCHO DE LA TUERCA 42 mm, PUENTE TOM y cordal",
+      "id": 4
+    },
+    {
+      "nombre": "Cargador de star wars",
+      "imagenUrl": "https://images.unsplash.com/photo-1558492426-df14e290aefa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "1000",
+      "categoria": "star wars",
+      "id": 5
+    },
+    {
+      "nombre": "Colección de star wars",
+      "imagenUrl": "https://images.unsplash.com/photo-1558793588-a82336c8a9b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60",
+      "precio": "1500",
+      "categoria": "star wars",
+      "id": 6
+    },
+    {
+      "nombre": "Arturito creo",
+      "imagenUrl": "https://images.unsplash.com/photo-1589661654496-f5222b481fe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "800",
+      "categoria": "star wars",
+      "id": 7
+    },
+    {
+      "nombre": "Arturito creo",
+      "imagenUrl": "https://images.unsplash.com/photo-1552591864-acc3cd2618e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "800",
+      "categoria": "star wars",
+      "id": 8
+    },
+    {
+      "nombre": "BAJO ELECTRICO FENDER PLAYER JAZZ BASS",
+      "imagenUrl": "bajo.png",
+      "precio": "16699",
+      "categoria": "bajos",
+      "descripcion": "Con sus dos pastillas de una bobina y su tacto suave, el Player Jazz Bass es un instrumento inspirador con un estilo clásico, superior y un auténtico tono de bajo Fender. Es poderoso, el sonido retumbante es fuerte y notorio; un gruñido que combina con una sensación de comodidad para una inyección de inspiración creativa. Listo para la acción en el estudio o en el escenario, con el Player Jazz Bass puedes tocar todo lo que se te ocurre, y todo lo que aún no se haya hecho.",
+      "id": "89b69cea-da12-4257-9372-a42499296703"
+    },
+    {
+      "nombre": "Bajo Electrico LTD F-1004 BLACK CHERRY SUNBURST",
+      "imagenUrl": "bajo2.jpg",
+      "precio": "32,990",
+      "categoria": "bajos",
+      "descripcion": "Los bajos LTD Deluxe están diseñados para ofrecer el tono, la sensación, la apariencia y la calidad que los músicos profesionales requieren en un instrumento, sin dejar de ser lo suficientemente asequibles para los músicos serios. Con su cuerpo esculpido y contorneado, la forma de F ha sido durante mucho tiempo la favorita de los intérpretes de los estilos musicales más pesados. El F-1004 y el F-1005 de 5 cuerdas son diseños de mástil a través del cuerpo en una escala de 35, perfectos para afinar los riffs pesados más brutales, con un mástil de cinco piezas de arce/corazón morado con acabado satinado para una interpretación rápida. y cuerpo de caoba con tapa de arce flameado. Su diapasón de ébano de Macassar incluye 24 trastes extra-jumbo de acero inoxidable e incrustaciones de puntos de abulón. Este bajo tiene componentes de primer nivel como afinadores Grover, un puente Hipshot A Style y las innovadoras pastillas activas Fishman Fluence SB-1 con modo de bobina simple, accesible a través de un control de volumen push-pull, así como un control de balance, 2 -Ecualizador de banda y un mini interruptor de 3 vías para voz 1, voz 2 (medio corte) y voz 2 (medio bemol)",
+      "id": "a32bd3e2-a0d7-4cae-a626-1d3fca2e5905"
+    }
+  ],
+  "usuarios": [
+    {
+      "correo": "david.lazaro@gmail.com",
+      "password": "David64git",
+      "id": "1"
+    },
+    {
+      "correo": "david.lazaroP@gmail.com",
+      "password": "David64kali",
+      "id": "7a9cd84a-c5cb-46f1-8d65-a46a06c86a51"
+    }
+  ],
+  "carrito": [
+    {
+      "nombre": "GUITARRA ELECTRICA FENDER PLAYER STRATOCASTER ",
+      "imagenUrl": "guitarra.png",
+      "precio": "21999",
+      "categoria": "guitarras",
+      "cantidad": 1,
+      "id": 1
+    },
+    {
+      "nombre": "GUITARRA ELECTRICA FENDER STRATOCASTER AMERICAN VINTAGE II",
+      "imagenUrl": "guitarra2.png",
+      "precio": "39500",
+      "categoria": "guitarras",
+      "cantidad": 1,
+      "id": 2
+    }
+  ]
+}
