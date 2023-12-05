@@ -1,0 +1,35 @@
+.contenedor_nosotros {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre_empresa {
+    font-size: 3rem;
+    color: #aed6f1;
+    background-color: #363062;
+    padding: .5rem 1rem;
+}
+
+.titulo_nosotros {
+    color: #435585;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.descripcion_nosotros {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 480px) {
+    img {
+        width: 90vw;
+    }
+}

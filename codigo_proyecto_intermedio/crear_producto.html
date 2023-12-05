@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockStore</title>
+</head>
+<body>
+    <form action="admin_products.html" id="formulario_editar">
+        <div class="campo">
+            <label for="imagen_input">Imagen</label>
+            <input type="file" id="imagen_input" accept="image/*" required>
+        </div>
+
+        <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="descripcion">Descripción</label>
+            <textarea id="descripcion" required></textarea>
+        </div>
+
+        <div class="campo">
+            <label for="precio">Precio</label>
+            <input type="number" id="precio">
+        </div>
+
+        <div class="campo">
+            <label for="categoria">Categoria</label>
+            <select id="categoria">
+                <option value="" selected disabled required>--Seleccionar--</option>
+                <option value="guitarras">guitarras</option>
+                <option value="bajos">bajos</option>
+                <option value="amplificadores">amplificadores</option>
+                <option value="accesorios">accesorios</option>
+            </select>
+        </div>
+
+        <button id="btn_guardar">Guardar</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/crear_producto.js"></script>
+</body>
+</html>

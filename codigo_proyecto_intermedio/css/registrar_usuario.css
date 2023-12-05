@@ -1,0 +1,157 @@
+body {
+  background-color: #363062;
+}
+
+.tarjeta-exito, .tarjeta-exito2 {
+  position: fixed;
+  top: 0;
+  right: 5%;
+  width: 60%;
+  display: none;
+}
+
+.contenido-tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+  width: 40%;
+  padding: 1rem;
+}
+
+#btn-ok, #btn-ok2 {
+  background-color: blue;
+  border-radius: 1rem;
+  color: azure;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+input {
+  background-color: #363062;
+  border: solid 2px #F5E8CE;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  border-radius: 1rem;
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: #818FB4;
+  outline: none;
+}
+
+input::placeholder {
+  color: #818FB4;
+}
+
+fieldset {
+  border: solid 3px #435585;
+  margin-bottom: 1rem;
+}
+
+legend {
+  color: #F5E8CE;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+label {
+  color: #aed6f1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+}
+
+.campo_tipo_tarjeta {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  background-color: #363062;
+  border: solid 2px #F5E8CE;
+  color: #818FB4;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  cursor: pointer;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.class_btn_enviar {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-enviar {
+  background-color: #435585;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  border: solid 2px #F5E8CE;
+  border-radius: 1rem;
+  padding: .7rem 0;
+  color:aliceblue;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#btn-enviar:hover {
+  color: #aed6f1;
+  text-decoration: underline;
+}
+
+/*
+Para marcar cuando algo esta mal en los campos
+*/
+
+.campo--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .campo--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+  }
+  
+  .campo--invalid .input-label {
+    color: red;
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .campo--invalid .input-message-error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+
+  @media screen and (max-width: 768px){
+    .contenido__principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .titulo {
+      text-align: center;
+    }
+    
+    .contenido__principal__derecha {
+      margin: 2rem 1rem;
+      width: 100%;
+    }
+
+  }

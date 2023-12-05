@@ -1,0 +1,350 @@
+.contenedor {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tarjeta-exito {
+    position: fixed;
+    top: 0;
+    right: 5%;
+    width: 60%;
+    display: none;
+}
+
+.contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 40%;
+    padding: 1rem;
+}
+
+#btn-ok {
+    background-color: blue;
+    border-radius: 1rem;
+    color: azure;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.navegacion, .navegacion_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra_busqueda {
+    background-color: #435585;
+    border-radius: 1rem;
+    border: solid 3px #363062;
+    width: 40rem;
+}
+
+#input_barra {
+    height: 25px;
+    background-color: #435585;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    color: #F5E8C7;
+    width: 92%;
+}
+
+.icon-tabler-search {
+    cursor: pointer;
+}
+
+.productos_encontrados {
+    display: none;
+    background-color: #f7f9f9;
+    position: absolute;
+    border: solid 2px #aed6f1;
+}
+
+.enlace_producto_e {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.enlace_producto_e:hover {
+    background-color: #b2babb;
+}
+
+.imagen_producto_e {
+    width: 3rem;
+    height: 3rem;
+}
+
+.barra, .barra_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #363062;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#icon-menu-absolute {
+    position: fixed;
+    left: 0;
+}
+
+.icon-menu {
+    display: none;
+}
+
+.submenu {
+    display: none;
+  }
+
+.enlace {
+    color: #818FB4;
+    border: solid 2px #F5E8C7;
+    padding: .5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlace:hover {
+    color: #aed6f1;
+}
+
+.enlace_submenu {
+    text-decoration: none;
+    color: #F5E8C7;
+}
+
+.enlace_submenu:hover {
+    text-decoration: underline;
+    color: #aed6f1;
+}
+
+.banner {
+    background-image: url(../img/banner-guitarras2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+.promo_mes {
+    /*color: #48c9b0;*/
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    background-color:  #fbeee6;
+}
+
+.imagen_logo {
+    width: 100px;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.guitarras, .bajos, .amplificadores, .accesorios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.titulo_seccion {
+    background-color: #435585;
+    display: inline-block;
+    color: #F5E8C7;
+    padding: .5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px #363062;
+    border-radius: 2rem;
+}
+
+.guitarra, .bajo, .producto, .amplificador, .accesorio {
+    display: flex;
+    flex-direction: column;
+    width: 213px;
+    box-shadow: 1px 0px 5px 5px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 0px 5px 5px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 0px 5px 5px rgba(0,0,0,0.29);
+}
+
+.descripcion, .precio {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.descripcion {
+    color:  #b2babb;
+    flex-grow: 1;
+}
+
+.precio {
+    color: black;
+    font-weight: bold;
+}
+
+.btn_agregar {
+    background-color: #363062;
+    color: #818FB4;
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_agregar:hover {
+    color: #aed6f1;
+}
+
+.iconos {
+    display: flex;
+    align-items: start;
+}
+
+.icono_carrito {
+    display: flex;
+    align-items: start;
+}
+
+.cantidad_productos_carrito {
+    margin: 0;
+    border-radius: 5rem;
+    border: solid 2px #363062;
+    display: inline-block;
+    padding: 2px 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #435585;
+    color: #F5E8C7;
+}
+
+.info_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nombre_user {
+    font-size: 15px;
+    margin: 0;
+    color: #435585;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Hacemos responsive la pagina para celular*/
+@media (max-width: 480px) {
+
+    .barra {
+        flex-direction: column;
+    }
+
+    .icon-menu2 {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .barra a {
+        display: none;
+    }
+
+    .barra.amburguesa a {
+        display: block;
+    }
+
+    .enlace {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    #input_barra {
+        width: 70%;
+    }
+
+    .div_submenu {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .seccion_guitarras, .seccion_bajos, .seccion_amplificadores, .seccion_accesorios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guitarras, .bajos, .amplificadores, .accesorios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .iconos {
+        margin-top: .5rem;
+    }
+
+    .icon-tabler-shopping-cart, .icon-tabler-user-circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cantidad_productos_carrito {
+        font-size: 20px;
+    }
+
+    .nombre_user {
+        font-size: 15px;
+    }
+
+    .navegacion_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*Hacemos responsive la pagina para tablet*/
+@media (min-width: 768px) and (max-width: 1024px){
+    
+
+    .guitarras, .bajos, .amplificadores, .accesorios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_carrito.css">
+    <title>RockStore</title>
+</head>
+<body>
+
+    <nav class="barra">
+        
+        <a class="enlace" href="iniciar_sesion.html">Iniciar sesión</a>
+        <a class="enlace" href="index.html">Inicio</a>
+        <div class="div_submenu">
+            <a href="#" class="enlace" id="sub_menu">Categorias</a>
+            <div class="submenu">
+                <a href="guitarras.html" class="enlace_submenu">Guitarras</a>
+                <a href="bajos.html" class="enlace_submenu">Bajos</a>
+                <a href="amplificadores.html" class="enlace_submenu">Amplificadores</a>
+                <a href="accesorios.html" class="enlace_submenu">Accesorios</a>
+            </div>   
+        </div>           
+        <a class="enlace" href="nosotros.html">Nosotros</a>
+        <a class="enlace" href="contacto.html">Contacto</a>
+        <a class="enlace" href="ubicacion.html">Ubicación</a>
+    </nav>
+
+    <div class="tarjeta-exito">
+        <div class="contenido-tarjeta">
+            <p>El producto se eliminó con éxito</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 12l5 5l10 -10" />
+                <path d="M2 12l5 5m5 -5l5 -5" />
+            </svg>
+            <button id="btn-ok">ok</button>
+        </div>
+    </div>
+    
+    <main class="main contenedor">
+        <div class="carrito">
+            <h2 class="titulo_seccion">Carrito</h2>
+            <div class="articulos">
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="ingresar_cupon">
+        <div class="datos_cupon">
+            <p class="titulo_cupon">Agregar Cupon</p>
+            <input type="text" class="input_cupon">
+            <button class="btn_canjear_cupon">Canjear</button>
+        </div>
+    </div>
+
+    
+    <div class="total contenedor">
+        <div class="total_pagar_flex">
+            <p class="leyenda_total_pagar">Total a pagar</p>
+            <p class="total_pagar"></p>
+            <button class="boton_pagar">Pagar</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="navegacion_footer">
+            <a href="index.html" class="enlace_logo"><img class="imagen_logo" src="img/logoTienda2.png" alt=""></a>
+            <nav class="barra">
+                <a class="enlace" href="iniciar_sesion.html">Iniciar sesión</a>
+                <a class="enlace" href="index.html">Inicio</a>
+                <a class="enlace" href="nosotros.html">Nosotros</a>
+                <a class="enlace" href="contacto.html">Contacto</a>
+                <a class="enlace" href="ubicacion.html">Ubicación</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/Agregar_carrito.js"></script>
+    <script src="js/atributos.js"></script>
+    <script src="js/submenu.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+.articulos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.cantidades {
+    display: flex;
+    align-items: center;
+}
+
+.btn_mas {
+    background-color: #435585;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: .5rem;
+    cursor: pointer;
+    color: #F5E8CE;
+}
+
+.btn_menos {
+    background-color: #435585;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: .5rem;
+    cursor: pointer;
+    color: #F5E8CE;
+}
+
+.total {
+    display: flex;
+    justify-content: end;
+}
+
+.total_pagar_flex {
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    background-color: #aed6f1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.boton_pagar {
+    background-color:  #76d7c4;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.boton_pagar:hover {
+    color: azure;
+    border: solid 2px black;
+    text-decoration: underline;
+}
+
+.leyenda_total_pagar, .total_pagar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.total_pagar {
+    margin-top: 0;
+}
+
+.ingresar_cupon {
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.titulo_cupon {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #435585;
+}
+
+.btn_canjear_cupon {
+    background-color: #435585;
+    border-radius: 1rem;
+    border: solid 2px #363062;
+    color: #F5E8CE;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn_canjear_cupon:hover {
+    text-decoration: underline;
+}
+
+.input_cupon {
+    background-color: #435585;
+    border-radius: 1rem;
+    border: solid 2px #363062;
+    color: #F5E8CE;
+} 
+
+/*Tamaño celular*/
+@media (max-width: 480px) {
+    .carrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articulos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .total {
+        display: flex;
+        justify-content: center;
+    }
+
+    .total_pagar_flex {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ingresar_cupon {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .articulos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .total {
+        display: flex;
+        justify-content: center;
+    }
+
+    .total_pagar_flex {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ingresar_cupon {
+        justify-content: center;
+    }
+}

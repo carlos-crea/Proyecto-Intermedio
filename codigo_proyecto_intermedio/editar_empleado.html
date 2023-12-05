@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="admin_empleados.html" id="form_nuevo_empleado">
+        <div class="campo">
+            <label for="imagen">Foto del empleado(ingrese un link)</label>
+            <input type="text" id="imagen" required>
+        </div>
+
+        <div class="campo">
+            <label for="nombre">Nombre completo del empleado</label>
+            <input type="text" id="nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="h_entrada">Hora de entrada (ingresa un numero del 10 al 17)</label>
+            <input type="number" min="10" max="17" required id="h_entrada">
+        </div>
+
+        <div class="campo">
+            <label for="h_salida">Hora de salida (ingresa un numero del 17 al 20)</label>
+            <input type="number" min="17" max="20" required id="h_salida">
+        </div>
+
+        <div class="campo">
+            <label for="dia">Días</label>
+            <div class="dias">
+                <label for="lunes">Lunes</label>
+                <input type="radio" value="LUNES" id="lunes">
+                <label for="martes">Martes</label>
+                <input type="radio" value="MARTES" id="martes">
+                <label for="miercoles">Miercoles</label>
+                <input type="radio" value="MIERCOLES" id="miercoles">
+                <label for="jueves">Jueves</label>
+                <input type="radio" value="JUEVES" id="jueves">
+                <label for="viernes">Viernes</label>
+                <input type="radio" value="VIERNES" id="viernes">
+                <label for="sabado">Sabado</label>
+                <input type="radio" value="SABADO" id="sabado">
+            </div>
+        </div>
+
+        <div class="campo">
+            <label for="cargo">Cargo</label>
+            <select id="cargo">
+                <option value="" selected disabled>--Seleccionar--</option>
+                <option value="cajero">cajero</option>
+                <option value="vendedor">vendedor</option>
+                <option value="repartidor">repartidor</option>
+                <option value="gerente">gerente</option>
+            </select>
+        </div>
+
+        <button class="btn_guardar">Guardar</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/editar_empleado.js"></script>
+</body>
+</html>

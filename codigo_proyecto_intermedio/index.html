@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RockStore</title>
+</head>
+<body>
+
+    <div class="tarjeta-exito">
+        <div class="contenido-tarjeta">
+            <p>El producto se agregó con éxito</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 12l5 5l10 -10" />
+                <path d="M2 12l5 5m5 -5l5 -5" />
+            </svg>
+            <button id="btn-ok">ok</button>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="navegacion">
+            <a href="" class="enlace_logo"><img class="imagen_logo" src="img/logoTienda2.png" alt=""></a>
+
+            <div class="barra_busqueda">
+                <div class="elementos_busqueda">
+                    <input type="text" id="input_barra">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F5E8C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+                </div>
+                <div class="productos_encontrados">
+                    
+                </div>
+            </div>
+
+            <div class="iconos">
+                <div class="icono_carrito">
+                    <a href="carrito.html" class="icono">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#818FB4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M17 17h-11v-14h-2" />
+                            <path d="M6 5l14 1l-1 7h-13" />
+                        </svg>
+                    </a>
+                    <p class="cantidad_productos_carrito"></p>
+                </div>
+
+                <a href="" class="info_user">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#818FB4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                        <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+                    </svg>
+                    <p class="nombre_user"></p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="barra" id="navega">
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 icon-menu" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 6l16 0" />
+            <path d="M4 12l16 0" />
+            <path d="M4 18l16 0" />
+        </svg>
+
+        <a class="enlace" href="iniciar_sesion.html">Iniciar sesión</a>
+        <a class="enlace" href="index.html">Inicio</a>
+        <div class="div_submenu">
+            <a href="#" class="enlace" id="sub_menu">Categorias</a>
+            <div class="submenu">
+                <a href="guitarras.html" class="enlace_submenu">Guitarras</a>
+                <a href="bajos.html" class="enlace_submenu">Bajos</a>
+                <a href="amplificadores.html" class="enlace_submenu">Amplificadores</a>
+                <a href="accesorios.html" class="enlace_submenu">Accesorios</a>
+            </div>   
+        </div>           
+        <a class="enlace" href="nosotros.html">Nosotros</a>
+        <a class="enlace" href="contacto.html">Contacto</a>
+        <a class="enlace" href="ubicacion.html">Ubicación</a>
+    </nav>
+
+    <a href="#navega" id="icon-menu-absolute">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 icon-menu2" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#76d7c4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 6l16 0" />
+            <path d="M4 12l16 0" />
+            <path d="M4 18l16 0" />
+          </svg>
+    </a>
+
+    <div class="banner">
+        <p class="promo_mes">Dsfruta de un <span class="porcentaje">20%</span> de descuento con el cupon <span class="mes">PACIFICA</span></p>
+    </div>
+
+    <main class="main contenedor">
+        <div class="seccion_guitarras">
+            <a href="guitarras.html" class="enlace_titulo_seccion"><h2 class="titulo_seccion">Guitarras</h2></a>
+            <div class="guitarras">
+                <!--
+                    <div class="guitarra">
+                    <img src="img/guitarra2.png" alt="imagen guitarra">
+                    <p class="descripcion">Guitarra electrica fender player stratocaster</p>
+                    <p class="precio">$21,999</p>
+                    <button class="btn_agregar">Agregar</button>
+                </div>
+    
+                <div class="guitarra">
+                    <img src="img/guitarra3.jpg" alt="imagen guitarra">
+                    <p class="descripcion">Guitarra electrica fender player stratocaster</p>
+                    <p class="precio">$21,999</p>
+                    <button class="btn_agregar">Agregar</button>
+                </div>
+    
+                <div class="guitarra">
+                    <img src="img/guitarra4.png" alt="imagen guitarra">
+                    <p class="descripcion">Guitarra electrica fender player stratocaster</p>
+                    <p class="precio">$21,999</p>
+                    <button class="btn_agregar">Agregar</button>
+                </div>
+                -->
+            </div>
+        </div>
+
+        <div class="seccion_bajos">
+            <a href="bajos.html" class="enlace_titulo_seccion"><h2 class="titulo_seccion">Bajos</h2></a>
+            <div class="bajos">
+
+            </div>
+        </div>
+
+        <div class="seccion_amplificadores">
+            <a href="amplificadores.html" class="enlace_titulo_seccion"><h2 class="titulo_seccion">Amplificadores</h2></a>
+            <div class="amplificadores">
+
+            </div>
+        </div>
+
+        <div class="seccion_accesorios">
+            <a href="accesorios.html" class="enlace_titulo_seccion"><h2 class="titulo_seccion">Accesorios</h2></a>
+            <div class="accesorios">
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="navegacion_footer">
+            <a href="index.html" class="enlace_logo"><img class="imagen_logo" src="img/logoTienda2.png" alt=""></a>
+            <nav class="barra_footer">
+                <a class="enlace" href="iniciar_sesion.html">Iniciar sesión</a>
+                <a class="enlace" href="index.html">Inicio</a>
+                <a class="enlace" href="nosotros.html">Nosotros</a>
+                <a class="enlace" href="contacto.html">Contacto</a>
+                <a class="enlace" href="ubicacion.html">Ubicación</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/read_all.js"></script>
+    <script src="js/submenu.js"></script>
+    <script src="js/atributos.js"></script>
+    <script src="js/busqueda_barra.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    background-color: #363062;
+}
+
+
+.star-rating {
+    display: flex;
+}
+  
+.star {
+    cursor: pointer;
+}
+
+#estrella_llena_1,
+#estrella_llena_2,
+#estrella_llena_3,
+#estrella_llena_4,
+#estrella_llena_5 {
+    display: none;
+}
+
+.campos_resena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.opinion {
+    display: flex;
+    flex-direction: column;
+}
+
+#oppinion {
+    resize: none;
+    width: 50rem;
+    height: 10rem;
+    background-color: #363062;
+    border: solid 2px #aed6f1;
+    border-radius: .5rem;
+    outline: none;
+    color: #F5E8C7;
+}
+
+.puntuacion {
+    color: #F5E8C7;
+    font-size: 1.5rem;
+    margin: 2rem 0 0 0;
+}
+
+label {
+    color: #F5E8C7;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.btn_guardar_resena {
+    margin-top: 2rem;
+    background-color: #363062;
+    border: solid 3px #818FB4;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color: #F5E8C7;
+    cursor: pointer;
+}
+
+.btn_guardar_resena:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    #oppinion {
+        width: 90vw;
+        height: 10rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #oppinion {
+        width: 90vw;
+        height: 10rem;
+    }
+}

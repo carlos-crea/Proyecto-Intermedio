@@ -1,0 +1,120 @@
+body {
+    background-color: #435585;
+}
+
+.tarjeta-exito {
+    position: fixed;
+    top: 0;
+    right: 5%;
+    width: 60%;
+    display: none;
+}
+
+.contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 40%;
+    padding: 1rem;
+}
+
+#btn-ok {
+    background-color: blue;
+    border-radius: 1rem;
+    color: azure;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.contenedor {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5% 2%;
+}
+
+.inicio_sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #353062;
+}
+
+.user_name, .contrasena {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.campo_contrasena, .campo_user {
+    display: flex;
+    border: solid 2px black;
+    border-radius: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: solid 2px #818fb4;
+}
+
+#user, #pasword {
+    height: 100%;
+    width: 90%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #353062;
+    outline: none;
+    border-radius: 1rem;
+    color: #F5E8C7;
+}
+
+label{
+    text-align: center;
+    color: #F5E8C7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_prueba {
+    background-color: #353062;
+    color: #818fb4;
+    border: solid 2px #F5E8C7;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+a {
+    margin-top: 1rem;
+    color: #F5E8C7;
+    border-bottom: solid 1px #818fb4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Tamño celular */
+
+@media (max-width: 480px) {
+    .contenedor {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5% 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contenedor {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5% 2%;
+    }
+}
